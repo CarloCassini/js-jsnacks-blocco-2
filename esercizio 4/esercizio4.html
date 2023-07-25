@@ -28,7 +28,6 @@
 
   <body>
     <h1 class="text-center my-5">ESERCIZIO 4</h1>
-    <!-- esercizio email -->
     <div class="container my-3">
       <div class="card">
         <div class="card-header">
@@ -37,42 +36,95 @@
           quanti l’altro.
         </div>
         <div class="card-body">
-          <div class="d-flex align-items-center justify-content-center">
-            <!-- inserisci un numero -->
-            <div class="mb-3">
-              <label class="form-label">
-                inserisci il numero di invitati
-              </label>
-              <input
-                type="number"
-                class="form-control"
-                id="user-number-input"
-              />
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="card mx-auto my-5" style="width: 18rem">
+              <div class="card-body">
+                <!-- output nomi -->
+                <div
+                  class="d-flex flex-wrap align-items-center justify-content-center fs-1 fw-bolder"
+                >
+                  <p
+                    class="card-text text-center fs-4"
+                    id="valore-input-nomi"
+                  ></p>
+                  <p
+                    class="card-text text-center fs-4 fw-bolder"
+                    id="valore-input-contarighe-nomi"
+                  >
+                    elementi nomi
+                  </p>
+                </div>
+              </div>
             </div>
-
+            <div class="card mx-auto my-5" style="width: 18rem">
+              <div class="card-body">
+                <!-- output cognomi -->
+                <div
+                  class="d-flex flex-wrap align-items-center justify-content-center fs-1 fw-bolder"
+                >
+                  <p
+                    class="card-text text-center fs-4"
+                    id="valore-input-congomi"
+                  ></p>
+                  <p
+                    class="card-text text-center fs-4 fw-bolder"
+                    id="valore-input-contarighe-cognomi"
+                  >
+                    elementi cognomi
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex align-items-center justify-content-center">
             <button
               type="button"
-              class="btn btn-outline-danger mx-3"
+              class="btn btn-outline-danger"
               id="input-button"
             >
-              Genera la lista
+              aggiusta liste
             </button>
           </div>
 
           <!-- spazio Output -->
-          <div class="card mx-auto my-5" style="width: 18rem">
-            <div class="card-body">
-              <div
-                class="d-flex align-items-center justify-content-center fs-1 fw-bolder"
-                id="output-email"
-              ></div>
-              <p class="card-text text-center fs-4" id="valore-output"></p>
-              <p
-                class="card-text text-center fs-4 fw-bolder"
-                id="valore-contarighe"
-              >
-                totale righe generate
-              </p>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="card mx-auto my-5" style="width: 18rem">
+              <div class="card-body">
+                <!-- output nomi -->
+                <div
+                  class="d-flex flex-wrap align-items-center justify-content-center fs-1 fw-bolder"
+                >
+                  <p
+                    class="card-text text-center fs-4"
+                    id="valore-output-nomi"
+                  ></p>
+                  <p
+                    class="card-text text-center fs-4 fw-bolder"
+                    id="valore-contarighe-nomi"
+                  >
+                    elementi nomi
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card mx-auto my-5" style="width: 18rem">
+              <div class="card-body">
+                <!-- output cognomi -->
+                <div
+                  class="d-flex flex-wrap align-items-center justify-content-center fs-1 fw-bolder"
+                >
+                  <p
+                    class="card-text text-center fs-4"
+                    id="valore-output-congomi"
+                  ></p>
+                  <p
+                    class="card-text text-center fs-4 fw-bolder"
+                    id="valore-contarighe-cognomi"
+                  >
+                    elementi cognomi
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
