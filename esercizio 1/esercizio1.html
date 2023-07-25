@@ -37,19 +37,36 @@
         </div>
         <div class="card-body">
           <div class="d-flex align-items-center">
-            <!-- nome -->
+            <!-- inserisci un numero -->
             <div class="mb-3">
               <label class="form-label"> inserisci e-mail </label>
-              <input type="text" class="form-control" id="user-email" />
+              <input type="text" class="form-control" id="user-number-input" />
             </div>
 
             <button
               type="button"
               class="btn btn-outline-danger mx-3"
-              id="email-button"
+              id="input-button"
             >
               verifica la mail
             </button>
+
+            <!-- spazio Output -->
+
+            <div class="card ms-auto" style="width: 18rem">
+              <div class="card-body">
+                <div
+                  class="d-flex align-items-center justify-content-center fs-1 fw-bolder"
+                  id="output-email"
+                ></div>
+                <p class="card-text text-center fs-4" id="valore-output">
+                  *****
+                </p>
+                <p class="card-text text-center fs-4 fw-bolder">
+                  risultato utente
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
