@@ -4,12 +4,20 @@ let nomiList = [
   "copiaincolla",
   "maraviglia",
   "lollona",
+  "ancoraUno",
+  "ancoraUno",
+  "ancoraUno",
+  "ancoraUno",
+  "ancoraUno",
+  "ancoraUno",
+  "ancoraUno",
+  "ancoraUno",
 ];
 let cognomiList = [" furbetti", "copiaincolla", " ricorda"];
 
 let myStartButton = document.getElementById("input-button");
 
-// visualizzo valori di partenza
+// visualizzo valori di partenza scrivo direttamente lìarray perchè sono pigro
 document.getElementById("valore-input-nomi").innerHTML = nomiList;
 document.getElementById("valore-input-contarighe-nomi").innerHTML +=
   nomiList.length;
