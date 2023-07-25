@@ -37,11 +37,17 @@
           lista di invitati con nome e cognome.
         </div>
         <div class="card-body">
-          <div class="d-flex align-items-center">
-            <!-- nome -->
+          <div class="d-flex align-items-center justify-content-center">
+            <!-- inserisci un numero -->
             <div class="mb-3">
-              <label class="form-label"> inserisci e-mail </label>
-              <input type="text" class="form-control" id="user-email" />
+              <label class="form-label">
+                inserisci il numero di invitati
+              </label>
+              <input
+                type="number"
+                class="form-control"
+                id="user-number-input"
+              />
             </div>
 
             <button
@@ -49,8 +55,25 @@
               class="btn btn-outline-danger mx-3"
               id="input-button"
             >
-              verifica la mail
+              Genera la lista
             </button>
+          </div>
+
+          <!-- spazio Output -->
+          <div class="card mx-auto my-5" style="width: 18rem">
+            <div class="card-body">
+              <div
+                class="d-flex align-items-center justify-content-center fs-1 fw-bolder"
+                id="output-email"
+              ></div>
+              <p class="card-text text-center fs-4" id="valore-output"></p>
+              <p
+                class="card-text text-center fs-4 fw-bolder"
+                id="valore-contarighe"
+              >
+                totale righe generate
+              </p>
+            </div>
           </div>
         </div>
       </div>
